@@ -1,0 +1,20 @@
+td {
+  border: solid 1px #4580b4;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+tfoot, thead {
+  border: 2px solid;
+}
+thead {
+  font-weight: bold;
+}
+tfoot {
+  font-style: italic;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #f0f8ff;
+}

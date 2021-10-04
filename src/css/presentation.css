@@ -1,0 +1,10 @@
+#videoDiv {
+	text-align: center;  
+	width: 100%;
+}
+video {
+	border: 2px solid #4580b4;
+}
+audio {
+	border-radius: 20px;
+}

@@ -1,0 +1,216 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+main {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+main h2, main h3, main h4 {
+	font-family: "Anton", sans-serif;
+	margin:0;
+	text-shadow: none;
+}
+main h1 {
+	margin: 0;
+	padding-top: 20px;
+}
+main h2 {
+	font-size: 2.5em;
+}
+main #bandeau {
+	width: 100%;
+	margin: 0;
+	padding: 30px;
+	border-color: yellow;
+	display: flex;
+	color: white;
+	background-color: #59585D;
+	border-bottom: 10px solid #F5D049;
+}
+main #bandeau img {
+	width: 300px;
+	height: 300px;
+}
+main #bandeau #description {
+	margin: 30px;
+}
+main #bandeau #intitule {
+	margin-top: 0;
+}
+main #bandeau #description h3 {
+	font-size: 1.6em;
+	text-transform: uppercase;
+}
+main #bandeau hr {
+	height: 2px;
+	background: #F5D049;
+}
+main #bandeau p {
+	margin-top:0;
+	font-size: 1.2em;
+}
+/* =============== Contenu =============== */
+main #contenu {
+	margin: 0;
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+}
+#contenu>article {
+	float: none;
+	width: 75%;
+	margin:0;
+	padding:60px;
+}
+/* =============== Chronologie =============== */
+#contenu article {
+	display: flex;
+	flex-direction: column;
+	padding: 50px 30px 30px 0px;
+}
+#contenu article .periode {
+	border:1px solid blue;
+	display: flex; 
+	flex-direction: column;
+	width: 100%;
+}
+#contenu article .periode .titre {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	color: #606060
+}
+#contenu article .periode .titre .icone {
+	padding: 20px 0;
+	width: 15%;
+	text-align: center;
+	background:#E6E6E8;
+}
+#contenu article .periode h3, #contenu article .periode h4 {
+	margin-left: 20px;
+}
+#contenu article .periode .event {
+	display: flex;
+	width: 100%;
+}
+#contenu article .periode .date {
+	text-align: center;
+	height: 100%;
+	width: 15%;
+	margin-top:0;
+	padding: 0;
+	background:#E6E6E8
+}
+#contenu .periode .desc h4 {
+	width: 100%;   
+}
+/* =============== Barre de gauche =============== */
+#contenu>aside {
+	float:none;
+	width: 25%;
+	padding: 30px;
+	background:#59585D;
+	color: white;
+	margin:0;
+}
+#contenu aside .intitule {
+	margin: 0 0 30px 0;
+	position:relative;
+	left:-30px;
+	display:flex;
+	background-color: white;
+	height: 30px;
+	color: black;
+	justify-content: center;
+}
+#contenu aside .intitule .icon {
+	height: 40px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 40px;
+	position: relative;
+	left: -30px;
+	top:-15px;
+}
+#contenu aside .intitule h3 {
+	font-size: 1.3em;
+	background-color: white;
+	position: relative;
+	width: 50%;
+	text-align: center;
+	position: relative;
+	left: -10px;
+}
+#contenu aside p {
+	margin: 0 0 5px 20px;
+}
+/* =============== Contact =============== */
+#contenu #contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background: #F5D049;
+	color: black;
+}
+#contenu #contact h4 {
+	width: 60%;
+	color: white;
+	font-size: 1.3em;
+	height: 32px;
+	background: #59585D;
+	border-radius: 0 0 25px 25px;
+}
+/* =============== Barres de compétences =============== */
+#contenu .progBar {
+	height: 10px;
+	display: flex;
+	width: 90%;
+	margin-bottom: 25px; 
+}
+#contenu .empty {
+	background-color: #7A797D;
+	height: 100%;
+}
+#contenu .full {
+	background:#ffed4f;
+	height: 100%;
+}
+/* =============== Taille des barres =============== */
+.progBar #f51 {
+	width: 51%;
+}
+.progBar #e49 {
+	width: 49%;
+}
+.progBar #e10 {
+	width: 10%;
+}
+.progBar #e20 {
+	width: 20%;
+}
+.progBar #e23 {
+	width: 23%;
+}
+.progBar #e36 {
+	width: 36%;
+}
+.progBar #e40 {
+	width: 40%;
+}
+.progBar #f60 {
+	width: 60%;
+}
+.progBar #f67 {
+	width: 67%;
+}
+.progBar #f77 {
+	width: 77%;
+}
+.progBar #f80 {
+	width: 80%;
+}
+.progBar #f90 {
+	width: 90%;
+}
